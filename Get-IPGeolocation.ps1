@@ -6,11 +6,6 @@ Get-IPGeolocation.ps1 - Get IP address geolocation data
 This PowerShell script performs a REST API query to retrieve
 geolocation information for an IP address.
 
-Freegeoip.net is a public HTTP API for geolocation data. They
-permit up to 10,000 queries per hour by default.
-
-To to http://freegeoip.net to find out more.
-
 .OUTPUTS
 Results are output to the console.
 
@@ -19,7 +14,6 @@ Specifies the IP address to lookup.
 
 .EXAMPLE
 .\Get-IPGeolocation.ps1 -IP 8.8.8.8
-
 
 .NOTES
 Written by: Paul Cunningham
@@ -30,6 +24,11 @@ Find me on:
 * Twitter:	https://twitter.com/paulcunningham
 * LinkedIn:	http://au.linkedin.com/in/cunninghamp/
 * Github:	https://github.com/cunninghamp
+
+Freegeoip.net is a public HTTP API for geolocation data. They
+permit up to 10,000 queries per hour by default.
+
+Go to http://freegeoip.net to find out more.
 
 Change Log
 V1.00, 13/03/2015 - Initial version
