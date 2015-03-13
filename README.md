@@ -1,20 +1,17 @@
 # Get-IPGeolocation.ps1
 PowerShell script to perform a REST API query to get IP address geo-location information
 
-.OUTPUTS
-Results are output to the console.
-
-# Parameters
+## Parameters
 
 - -IP
 Specifies the IP address to lookup.
 
-# Examples
+## Examples
 ```
 .\Get-IPGeolocation.ps1 -IP 8.8.8.8
 ```
 
-# Credits
+## Credits
 Written by: Paul Cunningham
 
 Find me on:
